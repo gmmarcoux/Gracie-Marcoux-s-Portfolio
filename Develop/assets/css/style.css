@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*header*/
+header {
+    padding: 20px 35px;
+    background-color: cadetblue;
+}
+
+header h1 {
+    font-size: 40px;
+    color:azure;
+    font-weight: bold;
+    margin: 0;
+    display: inline;
+}
+
+header nav {
+    float: right;
+    margin: 8px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: lighter;
+    margin: 0 31px;
+}
+
+/*Hero*/
+.hero {
+    background-image: url('../images/italy-profile-pic.jpeg');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-subtitle {
+    background-color: cadetblue;
+    border: 1px solid antiquewhite;
+    padding:15px;
+    width: 150px;
+    color: cadetblue;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.hero-subtitle h3 {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.section-title {
+    text-align: left;
+    font-size: 50px;
+    color: cadetblue;
+    padding: 0 100px 20px 100px;
+    display: inline-flex;
+    border-right: 3px solid;
+}
+
+.about-sum {
+    font-size: 25px;
+    width: 65%;
+    line-height: 1.3;
+    text-align: right;
+}
