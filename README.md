@@ -1,3 +1,14 @@
 # Gracie-Marcoux-s-Portfolio
-Included: my information, samples of my work, and a comprehensive, successful flow
 
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by [your name]
