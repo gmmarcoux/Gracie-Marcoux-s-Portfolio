@@ -81,25 +81,28 @@ body {
     text-align: left;
     font-size: 35px;
     color: cadetblue;
-    padding: 0 50px 20px 50px;
-    display: inline-flex;
+    padding-right: 20px;
     border-right: 3px solid;
+    margin: auto 0 auto 35px;
+    width: 15%;
 }
 
 .about-sum p {
     font-size: 25px;
     margin: 0 50px 20px 50px;
     line-height: 1.3;
+    text-align: right;
 }
 
 /*images for work*/
 
-.work-link {
-
-}
 .work-link img {
     border: 3px solid cadetblue;
     padding: 0;
     width: 25%;
     height: 25%;
+}
+
+.work-title {
+    display: flax;
 }
