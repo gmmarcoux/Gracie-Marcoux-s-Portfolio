@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Gracie Marcoux's Portfolio</title>
 </head>
@@ -11,7 +12,9 @@
 
     <!--Header, Name + links-->
     <header class="header">
-        <h1>Gracie Marcoux</h1>
+        <h1>
+            <a href="/">Gracie Marcoux</a>
+        </h1>
         <nav class="nav">
             <ul>
                 <li>
@@ -43,77 +46,85 @@
 
     <!--About me section-->
     <section id="about_me" class="bio">
-        <h2 class="section-title">About Me</h2>
-        <p class="about-sum">
-            My name is Grace Marcoux, but I like to go by Gracie. As a recent graduate from A&M University located in College Station, TX, I decided to take on coding to open new doors and have more employable skills. In college, I majored in psychology and minored in anthropology with a concentration in the Psychology of diversity. I am very grateful for my education and I've learned so much about the world.
-        </p>
+        <div class="flex-row">
+            <h2 class="section-title">
+                About Me
+            </h2>
+        </div>
+        <div class="flex-row">
+            <p>
+                My name is Grace Marcoux, but I like to go by Gracie. As a recent graduate from A&M University located in College Station, TX, I decided to take on coding to open new doors and have more employable skills. In college, I majored in psychology and minored in anthropology with a concentration in the Psychology of diversity. I am very grateful for my education and I've learned so much about the world.
+            </p>
+        </div>
     </section>
 
     <br />
 
     <!--My work section-->
     <section id="my_work" class="work">
-        <h2 class="section-title">My Work</h2>
-        
+        <div class="flex-row">
+            <h2 class="section-title">
+                My Work
+            </h2>
+        </div>
+
         <!--box 1-->
-        <article class="work-link">
-            <img src="./assets/images/beanie1.JPG" alt="black kitty" />
-            <div class="work-title">
-                <h3>MERN Stack</h3>
-            </div>
-        </article>
 
+        <div class="works">
+            <article class="work">
+                <img src="./assets/images/beanie1.JPG" alt="black kitty" />
+                <div class="work-title">
+                    <h3 class="work-name">MERN Stack</h3>
+                </div>
+            </article>
         <!--box 2-->
-        <article class="work-link">
-            <img src="./assets/images/beanie2.JPG" alt="black kitty" />
-            <div class="work-title">
-                <h3>Node/IoT</h3>
-            </div>
-        </article>
-
+            <article class="work">
+                <img src="./assets/images/beanie2.JPG" alt="black kitty" />
+                <div class="work-title">
+                    <h3 class="work-name">MERN Stack</h3>
+                </div>
+            </article>
         <!--box 3-->
-        <article class="work-link">
-            <img src="./assets/images/beanie3.JPG" alt="black kitty" />
-            <div class="work-title">
-                <h3>React/JavaScript/CSS</h3>
-            </div>
-        </article>
-
+            <article class="work">
+                <img src="./assets/images/beanie3.JPG" alt="black kitty" />
+                <div class="work-title">
+                    <h3 class="work-name">MERN Stack</h3>
+                </div>
+            </article>
         <!--box 4-->
-        <article class="work-link">
-            <img src="./assets/images/beanie4.JPG" alt="black kitty" />
-            <div class="work-title">
-                <h3>MERN Stack</h3>
-            </div>
-        </article>
-
+            <article class="work">
+                <img src="./assets/images/beanie4.JPG" alt="black kitty" />
+                <div class="work-title">
+                    <h3 class="work-name">MERN Stack</h3>
+                </div>
+            </article>
         <!--box 5-->
-        <article class="work-link">
-            <img src="./assets/images/beanie5.JPG" alt="black kitty" />
-            <div class="work-title">
-                <h3>HTML</h3>
-            </div>
-        </article>
+            <article class="work">
+                <img src="./assets/images/beanie5.JPG" alt="black kitty" />
+                <div class="work-title">
+                    <h3 class="work-name">MERN Stack</h3>
+                </div>
+            </article>
+        </div>
     </section>
 
     <br /> 
 
     <!--Contact me section-->
     <section id="contact_me" class="contact">
-        <h2 class="section-title">Contact Me</h2>
+        <div class="flex-row">
+             <h2 class="section-title">
+                 Contact Me
+                </h2>
         <div class="contact-info">
-            <h3>Gracie Marcoux</h3>
-            <ul>
-                <li>
-                    (512)-905-3804
-                </li>
-                <li>
-                    gmmarcoux@me.com
-                </li>
-                <li>
-                    GITHUB
-                </li>
-            </ul>
+            <div>
+                <h3>Gracie Marcoux</h3>
+
+                <address>
+                    P: 512-905-3804
+                    E: gmmarcoux@me.com
+                </address>
+            </div>
         </div>
     </section>
 
