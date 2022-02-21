@@ -20,6 +20,9 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 header h1 {
@@ -112,18 +115,13 @@ body {
 
 .work {
     margin: 20px;
-    flex: 1;
+    flex: 0 0 200px;
     background: aliceblue;
     color: cadetblue;
 }
 
 .work img {
     width: 100%;
-    flex: wrap;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
 }
 
 .work-title {
@@ -136,3 +134,13 @@ body {
     text-align: center;
     color: aliceblue;
 }
+
+.contact-info address {
+    line-height: 1.7;
+    color: cadetblue;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
