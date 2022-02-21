@@ -54,6 +54,9 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-subtitle {
