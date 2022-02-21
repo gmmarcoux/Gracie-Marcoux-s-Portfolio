@@ -12,6 +12,9 @@ body {
 header {
     padding: 20px 35px;
     background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -19,23 +22,29 @@ header h1 {
     color:azure;
     font-weight: bold;
     margin: 0;
-    display: inline;
 }
 
 header nav {
-    float: right;
     margin: 8px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
-    font-size: 25px;
+    font-size: 1.55vw;
     color: aliceblue;
     font-weight: lighter;
     margin: 0 31px;
+}
+
+body {
+    background-color: aliceblue;
 }
 
 /*Hero*/
@@ -64,18 +73,30 @@ header nav ul li a {
     color: aliceblue;
 }
 
+/*idk you gotta figure this one out chief*/
 .section-title {
     text-align: left;
-    font-size: 50px;
+    font-size: 35px;
     color: cadetblue;
-    padding: 0 100px 20px 100px;
+    padding: 0 50px 20px 50px;
     display: inline-flex;
     border-right: 3px solid;
 }
 
-.about-sum {
+.about-sum p {
     font-size: 25px;
-    width: 65%;
+    margin: 0 50px 20px 50px;
     line-height: 1.3;
-    text-align: right;
+}
+
+/*images for work*/
+
+.work-link {
+
+}
+.work-link img {
+    border: 3px solid cadetblue;
+    padding: 0;
+    width: 25%;
+    height: 25%;
 }
