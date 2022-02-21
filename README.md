@@ -1,7 +1,7 @@
 # Gracie-Marcoux-s-Portfolio
 
-## Purpose
-A website that offers fitness training services.
+## Decription
+This site has been modified with CSS to accomodate different screens, have more aesthetics, and flow easily.
 
 ## Built With
 * HTML
@@ -11,4 +11,5 @@ A website that offers fitness training services.
 https://lernantino.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by [your name]
+Made by Gracie Marcoux
+
